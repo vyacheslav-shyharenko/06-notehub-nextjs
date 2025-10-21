@@ -1,8 +1,6 @@
 import css from "./Footer.module.css";
 
-interface FooterProps {}
-
-const Footer = ({}: FooterProps) => {
+const Footer = () => {
   return (
     <footer className={css.footer}>
       <div className={css.content}>
